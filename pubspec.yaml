@@ -1,0 +1,65 @@
+name: base_templet
+description: Base Architecture for projects.
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=3.1.3 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  #============ network client ==============
+  dio: ^5.4.0
+  #============ state management BloC=========
+  flutter_bloc: ^8.1.3
+  equatable: ^2.0.5
+  #============ svg assets ===============
+  flutter_svg: ^2.0.9
+  #============ dependency injection ===============
+  get_it: ^7.6.4
+  #============= check internet connection=========
+  internet_connection_checker: ^1.0.0+1
+  #============ responsive for ui and fonts =========
+  flutter_screenutil: ^5.9.0
+  #========= services logging ===========
+  logger: ^2.0.2+1
+  flutter_dotenv: ^5.1.0
+  #========= local storage & cach ===========
+  shared_preferences: ^2.2.2
+  flutter_cache_manager: ^3.3.1
+
+  #============ toast and snakbar =============
+  bot_toast: ^4.1.3
+  awesome_snackbar_content: ^0.1.3
+  #============ localization and format =============
+  intl: ^0.18.1
+  easy_localization: ^3.0.3
+  #============ routing of app =============
+  go_router: ^12.1.1
+
+  #============ for push notifications =============
+  flutter_local_notifications: ^16.2.0
+  firebase_core: ^2.24.0
+  firebase_messaging: ^14.7.6
+  # ================================================
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/translation/
+    - assets/svg/
+    - assets/png/
+    - assets/config/
+    - pubspec.yaml
+  # fonts:
+  #   - family: Cairo
+  #     fonts:
+  #       - asset: assets/fonts/Cairo-Regular.ttf
+  #       - asset: assets/fonts/Cairo-Medium.ttf
+  #       - asset: assets/fonts/Cairo-Bold.ttf
+  #       - asset: assets/fonts/Cairo-SemiBold.ttf
