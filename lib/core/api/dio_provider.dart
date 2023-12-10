@@ -2,9 +2,9 @@
 import 'dart:async';
 import 'dart:io';
 
-import 'package:base_templet/core/client/exceptions.dart';
-import 'package:base_templet/core/client/handle_exception.dart';
-import 'package:base_templet/core/client/response_model.dart';
+import 'package:base_templet/core/api/exceptions.dart';
+import 'package:base_templet/core/api/handle_exception.dart';
+import 'package:base_templet/core/api/response_model.dart';
 import 'package:base_templet/core/constants/enums.dart';
 import 'package:base_templet/core/dependency_injection/injection_container.dart';
 import 'package:base_templet/core/network_info/network_info.dart';

@@ -1,4 +1,4 @@
-import 'package:base_templet/core/client/exceptions.dart';
+import 'package:base_templet/core/api/exceptions.dart';
 import 'package:base_templet/core/constants/colors.dart';
 import 'package:base_templet/core/constants/styles.dart';
 import 'package:base_templet/core/dependency_injection/injection_container.dart';
